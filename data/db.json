@@ -1,0 +1,13 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "title": "S123",
+      "author": "Clean Code",
+      " price": "2026-09-01",
+      "quantity": false
+    }
+
+    
+  ]
+}
