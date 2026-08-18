@@ -1,5 +1,5 @@
 // middleware/auth.js
-const API_KEY = process.env.API_KEY || 'secret123'; 
+const API_KEY = process.env.API_KEY || 'secret123';
 
 function checkApiKey(req, res, next) {
   const key = req.headers['x-api-key'];
@@ -8,4 +8,6 @@ function checkApiKey(req, res, next) {
   }
   next();
 }
+
+module.exports = { checkApiKey };
 
