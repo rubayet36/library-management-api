@@ -64,5 +64,12 @@ router.post('/', (req, res) => {
   sendJSON(res, 201, true, newItem);
 });
 
+//Retrieve all books
+router.get('/', (req, res) => {
+  const db = loadDB();
+  const books = Array.isArray(db[RESOURCE]) ? db[RESOURCE] : Array.isArray(db.book) ? db.book : [];
+  sendJSON(res, 200, true, books);
+});
+
 module.exports = router;
 

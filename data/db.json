@@ -1,21 +1,19 @@
 {
   "books": [
-
     {
       "title": "System Design Interview V2",
       "author": "Alex XU",
       "price": "2026-08-18",
       "quantity": 5,
       "id": 2
-    }
-  ],
-  "book": [
+    },
     {
-      "id": 1,
-      "title": "System Design Interview",
+      "title": "System Design Mechine Learning ",
       "author": "Alex XU",
-      "price": "2026-09-01",
-      "quantity": 4
+      "price": "2026-08-18",
+      "quantity": 2,
+      "id": 3
     }
   ]
+
 }
