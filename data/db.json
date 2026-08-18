@@ -1,13 +1,21 @@
 {
+  "books": [
+
+    {
+      "title": "System Design Interview V2",
+      "author": "Alex XU",
+      "price": "2026-08-18",
+      "quantity": 5,
+      "id": 2
+    }
+  ],
   "book": [
     {
       "id": 1,
-      "title": "S123",
-      "author": "Clean Code",
-      " price": "2026-09-01",
-      "quantity": false
+      "title": "System Design Interview",
+      "author": "Alex XU",
+      "price": "2026-09-01",
+      "quantity": 4
     }
-
-    
   ]
 }
